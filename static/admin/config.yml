@@ -5,10 +5,8 @@ media_folder: static/img
 collections:
   - name: "pages"
     label: "Pages"
-    files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
+    folder: "pages"
+    create: true
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Publish Date", name: "date", widget: "datetime" }
