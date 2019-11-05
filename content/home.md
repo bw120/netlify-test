@@ -1,16 +1,10 @@
 ---
 title: Awesome kitties
 date: 2019-03-17T19:31:20.591Z
-cats:
-  - description: Lil Bub is an American celebrity cat known for her unique appearance.
-    name: Lil Bub
-  - description: 'Maru is a Scottish Fold from Japan, and he loves boxes.'
-    name: Maru (まる)
-  - description: A cat the bites you for no reason
-    name: Crazy cat
-  - description: 'Grumpy cat is an American celebrity cat known for her grumpy appearance. '
-    name: Grumpy cat (Tardar Sauce)
+summary:
+  - This site is deployed with Netflify
+  - It uses Netlify CMS which uses Git to update a markdown file
+  - The NextJS & React code parses and renders the makdown file into a page
+  - Netfilfy build is trigggered on a GitHug webhook
 ---
-Welcome to my awesome page about cats of the internet.
-
-This page is built with NextJS, and content is managed in Netlify CMS
+Here is a post about using Netlify CMS

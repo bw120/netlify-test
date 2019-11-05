@@ -1,8 +1,7 @@
 ---
 title: My new page
 date: 2019-10-29T20:42:44.966Z
-cats:
-  - description: a cat that bites for no good reason
-    name: crazy cat
+summary:
+  - Here is a different page
 ---
-Here is some content. I could add anything here. I hope this generates a new page
+I added this to see how the CMS works
