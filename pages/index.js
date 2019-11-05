@@ -3,16 +3,16 @@ import content from '../content/home.md';
 
 export default class Home extends Component {
   render() {
-    let { html , attributes:{ title, cats } } = content;
+    let {html, attributes: {title, summary}} = content;
+    console.log(summary);
     return (
       <article>
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}/>
           <ul>
-              { cats.map((cat, k) => (
+              { summary.map((item, k) => (
                   <li key={k}>
-                    <h2>{cat.name}</h2>
-                    <p>{cat.description}</p>
+                    <p>{item.description}</p>
                   </li>
               ))}
           </ul>
