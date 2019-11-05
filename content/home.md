@@ -6,5 +6,6 @@ summary:
   - description: It uses Netlify CMS which uses Git to update a markdown file
   - description: The NextJS & React code parses and renders the makdown file into a page
   - description: Netfilfy build is trigggered on a GitHug webhook
+
 ---
 Here is a post about using Netlify CMS
